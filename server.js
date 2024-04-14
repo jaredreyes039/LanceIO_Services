@@ -17,7 +17,6 @@ dotenv.config();
 // Middleware init
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json())
-app.use(cors())
 
 // Routing
 app.use('/api/basic-gigs', BASIC_GIGS_ROUTER)
@@ -28,7 +27,7 @@ app.use('/api/invoices', INVOICES_ROUTER)
 
 // Move to ENV
 const PORT = 5001
-app.listen(process.env.PORT || PORT, ()=>{
+app.listen(process.env.PORT || PORT, () => {
     console.log(`Server is running on port ${PORT}`)
     initMongoConnection(process.env.MONGO_URI)
 })
