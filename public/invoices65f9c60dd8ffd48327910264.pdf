@@ -1,0 +1,488 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 612. 792.]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 4165
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 64 Tf
+73.5999999999999943 TL
+0.275 0.804 0.431 rg
+34.0157480314960665 655.9370078740157624 Td
+(Client Invoice) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.333 g
+70.8661417322834666 12.4724409448817823 Td
+(Invoice generated using LanceIO. Copyright © 2024 LanceIO. All Rights Reserved.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+34.0157480314960665 757.9842519685039406 Td
+(Order #) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.275 0.804 0.431 rg
+79.3700787401574814 757.9842519685039406 Td
+(65f9c60dd8ffd48327910264) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+34.0157480314960665 740.9763779527559109 Td
+(Delivery Due:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.275 0.804 0.431 rg
+113.3858267716535551 740.9763779527559109 Td
+(Wed Mar 20 2024) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+34.0157480314960665 723.9685039370078812 Td
+(Payment Due:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.275 0.804 0.431 rg
+113.3858267716535551 723.9685039370078812 Td
+(Invalid Date) Tj
+ET
+0. g
+14.1732283464566944 w
+34.0157480314960665 633.259842519685094 m
+566.9291338582677326 633.259842519685094 l
+S
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+34.0157480314960665 599.2440944881889209 Td
+(Client:) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0.275 0.804 0.431 rg
+73.7007874015748143 599.2440944881889209 Td
+(326a59df-17bf-4dd5-9d7d-5c7ee38178b7) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+34.0157480314960665 573.7322834645668763 Td
+(Service:) Tj
+ET
+BT
+/F1 14 Tf
+16.0999999999999979 TL
+0.275 0.804 0.431 rg
+82.2047244094488292 573.7322834645668763 Td
+(65f9c582d8ffd48327910251) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+34.0157480314960665 548.2204724409448318 Td
+(Complete Cost Breakdown:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+425.1968503937008563 757.9842519685039406 Td
+(Amount Owed:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.275 0.804 0.431 rg
+510.2362204724410049 757.9842519685039406 Td
+($2500) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.008 g
+425.1968503937008563 740.9763779527559109 Td
+(Amount Paid:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0.275 0.804 0.431 rg
+510.2362204724410049 740.9763779527559109 Td
+($0) Tj
+ET
+0. G
+14.1732283464566944 w
+0. G
+14.1732283464566944 w
+0.27 0.8 0.43 rg
+0.78 G
+0. w
+0.27 0.8 0.43 rg
+40. 539.7165354330708169 180.1041666666666572 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.008 g
+45. 526.2165354330708169 Td
+(Task) Tj
+ET
+0.27 0.8 0.43 rg
+0.78 G
+0. w
+0.27 0.8 0.43 rg
+220.1041666666666856 539.7165354330708169 196.3333333333333428 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.008 g
+225.1041666666666572 526.2165354330708169 Td
+(Time) Tj
+ET
+0.27 0.8 0.43 rg
+0.78 G
+0. w
+0.27 0.8 0.43 rg
+416.4375000000000568 539.7165354330708169 155.5624999999999716 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.008 g
+421.4375000000000568 526.2165354330708169 Td
+(Cost) Tj
+ET
+0. G
+14.1732283464566944 w
+0.96 g
+0.78 G
+0. w
+0.96 g
+40. 518.2165354330708169 180.1041666666666572 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+45. 504.7165354330708169 Td
+(fwfwwef) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+220.1041666666666856 518.2165354330708169 196.3333333333333428 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+225.1041666666666572 504.7165354330708169 Td
+(00:00:03) Tj
+ET
+0.96 g
+0.78 G
+0. w
+0.96 g
+416.4375000000000568 518.2165354330708169 155.5624999999999716 -21.4999999999999964 re
+f
+BT
+/F1 10 Tf
+11.5 TL
+0.314 g
+421.4375000000000568 504.7165354330708169 Td
+(FIXED) Tj
+ET
+0. G
+14.1732283464566944 w
+0.01 g
+0.78 G
+0. w
+0.01 g
+40. 496.7165354330708169 180.1041666666666572 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.996 g
+45. 483.2165354330708169 Td
+(Total) Tj
+ET
+0.01 g
+0.78 G
+0. w
+0.01 g
+220.1041666666666856 496.7165354330708169 196.3333333333333428 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.996 g
+225.1041666666666572 483.2165354330708169 Td
+(00:00:03) Tj
+ET
+0.01 g
+0.78 G
+0. w
+0.01 g
+416.4375000000000568 496.7165354330708169 155.5624999999999716 -21.4999999999999964 re
+f
+BT
+/F2 10 Tf
+11.5 TL
+0.996 g
+421.4375000000000568 483.2165354330708169 Td
+(2500) Tj
+ET
+0.78 G
+0. w
+0. G
+14.1732283464566944 w
+0. G
+14.1732283464566944 w
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R ]
+/Count 1
+>>
+endobj
+5 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+7 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+9 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+10 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 5 0 R
+/F2 6 0 R
+/F3 7 0 R
+/F4 8 0 R
+/F5 9 0 R
+/F6 10 0 R
+/F7 11 0 R
+/F8 12 0 R
+/F9 13 0 R
+/F10 14 0 R
+/F11 15 0 R
+/F12 16 0 R
+/F13 17 0 R
+/F14 18 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+19 0 obj
+<<
+/Producer (jsPDF 2.5.1)
+/CreationDate (D:20240319103055-07'00')
+>>
+endobj
+20 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 21
+0000000000 65535 f 
+0000004337 00000 n 
+0000006154 00000 n 
+0000000015 00000 n 
+0000000120 00000 n 
+0000004394 00000 n 
+0000004519 00000 n 
+0000004649 00000 n 
+0000004782 00000 n 
+0000004919 00000 n 
+0000005042 00000 n 
+0000005171 00000 n 
+0000005303 00000 n 
+0000005439 00000 n 
+0000005567 00000 n 
+0000005694 00000 n 
+0000005823 00000 n 
+0000005956 00000 n 
+0000006058 00000 n 
+0000006402 00000 n 
+0000006488 00000 n 
+trailer
+<<
+/Size 21
+/Root 20 0 R
+/Info 19 0 R
+/ID [ <88C80794E957470D501482D055FC1663> <88C80794E957470D501482D055FC1663> ]
+>>
+startxref
+6592
+%%EOF
