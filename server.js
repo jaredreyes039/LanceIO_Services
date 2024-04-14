@@ -17,6 +17,7 @@ dotenv.config();
 // Middleware init
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(bodyParser.json())
+app.use(cors())
 
 // Routing
 app.use('/api/basic-gigs', BASIC_GIGS_ROUTER)

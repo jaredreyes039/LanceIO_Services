@@ -17,7 +17,7 @@ exports.createBasicGig = async (req, res) => {
         estDeliveryTime
     } = req.body;
 
-    tokenVerificationWrapper(req, res, async ()=>{
+    tokenVerificationWrapper(req, res, async () => {
         try {
             const newGig = await GigBasic.create({
                 user_id,
@@ -34,23 +34,23 @@ exports.createBasicGig = async (req, res) => {
                 message: "Gig created successfully"
             })
         }
-        catch(err){
+        catch (err) {
             console.log(err)
-            return res.status(500).json({message: "Internal Server Error"})
+            return res.status(500).json({ message: "Internal Server Error" })
         }
     }, token)
 }
 
 exports.clearGigsDev = async (req, res) => {
-    try{
+    try {
         await GigBasic.deleteMany({})
         res.status(200).send({
             message: "Gigs cleared successfully"
         })
     }
-    catch(err){
+    catch (err) {
         console.log(err)
-        return res.status(500).json({message: "Internal Server Error"})
+        return res.status(500).json({ message: "Internal Server Error" })
     }
 }
 
@@ -70,27 +70,31 @@ exports.updateBasicGig = async (req, res) => {
 
     console.log(req.body)
 
-    tokenVerificationWrapper(req, res, ()=>{
+    tokenVerificationWrapper(req, res, () => {
         try {
-            GigBasic.findOneAndUpdate({_id},{$set:{
-                title,
-                description,
-                price,
-                payStruct,
-                currency,
-                totalIncome,
-                estDeliveryTime
-            }}).then((doc)=>{
+            GigBasic.findOneAndUpdate({ _id }, {
+                $set: {
+                    title,
+                    description,
+                    price,
+                    payStruct,
+                    currency,
+                    totalIncome,
+                    estDeliveryTime
+                }
+            }).then((doc) => {
                 console.log(doc)
             })
 
             try {
-                Order.find({service_id: _id}).then((orders)=>{
+                Order.find({ service_id: _id }).then((orders) => {
                     console.log(orders)
-                    orders.map((order)=>{
-                        Order.findOneAndUpdate({_id: order._id}, {"$set": {
-                            "payment.price": price
-                        }}).then((updatedOrder)=>{
+                    orders.map((order) => {
+                        Order.findOneAndUpdate({ _id: order._id }, {
+                            "$set": {
+                                "payment.price": price
+                            }
+                        }).then((updatedOrder) => {
                             console.log("Updated: " + updatedOrder)
                         })
                     })
@@ -103,9 +107,9 @@ exports.updateBasicGig = async (req, res) => {
                 console.log(err)
             }
         }
-        catch(err){
+        catch (err) {
             console.log(err)
-            return res.status(500).json({message: "Internal Server Error"})
+            return res.status(500).json({ message: "Internal Server Error" })
         }
     }, token)
 }
