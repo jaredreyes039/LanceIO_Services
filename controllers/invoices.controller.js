@@ -164,7 +164,7 @@ exports.generateInvoice = async (req, res) => {
                     textColor: '#fefefe'
                 }
             })
-            invoice.save("./public" + order_id + ".pdf")
+            invoice.save("./public/invoices" + order_id + ".pdf")
             res.status(200).json({ message: "Invoice generated!", success: true })
         }, token)
     }

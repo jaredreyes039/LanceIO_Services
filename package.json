@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "NODE_ENV='development' nodemon server.js"
   },
   "author": "Jay Reyes",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "jspdf": "^2.5.1",
     "jspdf-autotable": "^3.8.2",
     "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.1",
     "njwt": "^2.0.0",
     "uuid": "^9.0.1"

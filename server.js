@@ -1,34 +1,40 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const dotenv = require('dotenv');
+const EXPRESS = require('express');
+const BODYPARSER = require('body-parser');
+const DOTENV = require('dotenv');
 const initMongoConnection = require('./config/database.config');
 const BASIC_GIGS_ROUTER = require('./routes/basicGigs.routes');
 const MAIN_GIGS_ROUTER = require('./routes/mainGigs.routes');
 const CLIENT_CONTACTS_ROUTER = require('./routes/clientContacts.routes');
 const ORDERS_ROUTER = require('./routes/orders.routes');
 const INVOICES_ROUTER = require('./routes/invoices.routes')
-const cors = require('cors')
-const path = require('path');
+const CORS = require('cors')
+const PATH = require('path');
+const MORGAN = require('morgan')
 
 // Express server init and env access
-const app = express();
-dotenv.config();
+const APP = EXPRESS();
+DOTENV.config();
 
 // Middleware init
-app.use(express.static(path.join(__dirname, 'public')));
-app.use(bodyParser.json())
-app.use(cors())
+APP.use(EXPRESS.static(PATH.join(__dirname, 'public')));
+APP.use(BODYPARSER.json())
+APP.use(CORS())
+
+// Use azure app insights for production instead
+if (process.env.NODE_ENV == "development") {
+    APP.use(MORGAN('tiny'))
+}
 
 // Routing
-app.use('/api/basic-gigs', BASIC_GIGS_ROUTER)
-app.use('/api/gigs', MAIN_GIGS_ROUTER)
-app.use('/api/clients', CLIENT_CONTACTS_ROUTER)
-app.use('/api/orders', ORDERS_ROUTER)
-app.use('/api/invoices', INVOICES_ROUTER)
+APP.use('/api/basic-gigs', BASIC_GIGS_ROUTER)
+APP.use('/api/gigs', MAIN_GIGS_ROUTER)
+APP.use('/api/clients', CLIENT_CONTACTS_ROUTER)
+APP.use('/api/orders', ORDERS_ROUTER)
+APP.use('/api/invoices', INVOICES_ROUTER)
 
 // Move to ENV
 const PORT = 5001
-app.listen(process.env.PORT || PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
+const SERVER = APP.listen(process.env.PORT || PORT, () => {
     initMongoConnection(process.env.MONGO_URI)
 })
+
