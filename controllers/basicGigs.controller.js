@@ -35,7 +35,6 @@ exports.createBasicGig = async (req, res) => {
             })
         }
         catch (err) {
-            console.log(err)
             return res.status(500).json({ message: "Internal Server Error" })
         }
     }, token)
@@ -49,7 +48,6 @@ exports.clearGigsDev = async (req, res) => {
         })
     }
     catch (err) {
-        console.log(err)
         return res.status(500).json({ message: "Internal Server Error" })
     }
 }
@@ -68,8 +66,6 @@ exports.updateBasicGig = async (req, res) => {
         estDeliveryTime
     } = req.body;
 
-    console.log(req.body)
-
     tokenVerificationWrapper(req, res, () => {
         try {
             GigBasic.findOneAndUpdate({ _id }, {
@@ -82,20 +78,15 @@ exports.updateBasicGig = async (req, res) => {
                     totalIncome,
                     estDeliveryTime
                 }
-            }).then((doc) => {
-                console.log(doc)
             })
 
             try {
                 Order.find({ service_id: _id }).then((orders) => {
-                    console.log(orders)
                     orders.map((order) => {
                         Order.findOneAndUpdate({ _id: order._id }, {
                             "$set": {
                                 "payment.price": price
                             }
-                        }).then((updatedOrder) => {
-                            console.log("Updated: " + updatedOrder)
                         })
                     })
                     res.status(200).send({
@@ -108,7 +99,6 @@ exports.updateBasicGig = async (req, res) => {
             }
         }
         catch (err) {
-            console.log(err)
             return res.status(500).json({ message: "Internal Server Error" })
         }
     }, token)

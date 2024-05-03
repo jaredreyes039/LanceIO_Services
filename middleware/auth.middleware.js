@@ -3,11 +3,11 @@ const jwt = require('njwt')
 exports.tokenVerificationWrapper = (req, res, callback, token) => {
 
     jwt.verify(token, process.env.JWT_SECRET, (err, verifiedJwt) => {
-        if(err){
+        if (err) {
             console.log(err)
-            return res.status(401).send({error: "Invalid token."})
+            return res.status(401).send({ error: "Invalid token." })
         }
-        else{
+        else {
             callback()
         }
     })
